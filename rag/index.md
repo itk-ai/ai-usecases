@@ -21,7 +21,7 @@ flowchart TB;
   D[Databases & Enterprise Systems - SQL dumps, NoSQL exports, CRM/ERP data, Graph DBs] --> Ingest;
   E[Code & Technical Assets - source code repos, notebooks, configuration files] --> Ingest;
   F[Multimedia - Audio recordings, podcasts, video transcripts, images with OCR] --> Ingest;
-  G[Specialized Formats - spreadsheets, CAD files, scientific articles (PubMed), logs] --> Ingest;
+  G[Specialized Formats - spreadsheets, CAD files, scientific articles, logs] --> Ingest;
   Ingest --> Unified[Unified Preprocessing Pipeline];
 ```
 
