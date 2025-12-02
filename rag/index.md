@@ -14,15 +14,15 @@
 A RAG ingestion system must handle a wide variety of formats and content origins.
 
 ```mermaid
-flowchart TB
-  A[Desktop-Published Documents - PDF, DOCX, PPTX, ODT, EPUB] --> Ingest[Ingestion System]
-  B[Plain Text & Markup - TXT, Markdown, HTML, LaTeX, JSON, XML, YAML] --> Ingest
-  C[Web Sources - Web pages, APIs, CMS exports, sitemaps, RSS feeds] --> Ingest
-  D[Databases & Enterprise Systems - SQL dumps, NoSQL exports, CRM/ERP data, Graph DBs] --> Ingest
-  E[Code & Technical Assets - source code repos, notebooks, configuration files] --> Ingest
-  F[Multimedia - Audio recordings, podcasts, video transcripts, images with OCR] --> Ingest
-  G[Specialized Formats - spreadsheets, CAD files, scientific articles (PubMed), logs] --> Ingest
-  Ingest --> Unified[Unified Preprocessing Pipeline]
+flowchart TB;
+  A[Desktop-Published Documents - PDF, DOCX, PPTX, ODT, EPUB] --> Ingest[Ingestion System];
+  B[Plain Text & Markup - TXT, Markdown, HTML, LaTeX, JSON, XML, YAML] --> Ingest;
+  C[Web Sources - Web pages, APIs, CMS exports, sitemaps, RSS feeds] --> Ingest;
+  D[Databases & Enterprise Systems - SQL dumps, NoSQL exports, CRM/ERP data, Graph DBs] --> Ingest;
+  E[Code & Technical Assets - source code repos, notebooks, configuration files] --> Ingest;
+  F[Multimedia - Audio recordings, podcasts, video transcripts, images with OCR] --> Ingest;
+  G[Specialized Formats - spreadsheets, CAD files, scientific articles (PubMed), logs] --> Ingest;
+  Ingest --> Unified[Unified Preprocessing Pipeline];
 ```
 
 This overview highlights the diversity of real-world formats a complete RAG ingestion system may need to support, from documents to APIs to multimedia and enterprise data.
