@@ -1,5 +1,8 @@
 # AI Usecases
 
+*This is a work in progress*  
+*For now the RAG presentation is based mainly on a ChatGPT generated presentation*
+
 Grund-usecases:
 
 - RAG ([forklaring](rag/index.md) / usecases)
