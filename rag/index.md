@@ -14,7 +14,7 @@
 A RAG ingestion system must handle a wide variety of formats and content origins.
 
 ```mermaid
-flowchart TB;
+flowchart LR;
   A[Desktop-Published Documents - PDF, DOCX, PPTX, ODT, EPUB] --> Ingest[Ingestion System];
   B[Plain Text & Markup - TXT, Markdown, HTML, LaTeX, JSON, XML, YAML] --> Ingest;
   C[Web Sources - Web pages, APIs, CMS exports, sitemaps, RSS feeds] --> Ingest;
